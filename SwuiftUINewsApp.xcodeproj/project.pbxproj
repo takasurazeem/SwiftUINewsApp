@@ -14,6 +14,7 @@
 		769E301A27983C91006677E3 /* SwuiftUINewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769E301927983C91006677E3 /* SwuiftUINewsAppTests.swift */; };
 		769E302427983C91006677E3 /* SwuiftUINewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769E302327983C91006677E3 /* SwuiftUINewsAppUITests.swift */; };
 		769E302627983C91006677E3 /* SwuiftUINewsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769E302527983C91006677E3 /* SwuiftUINewsAppUITestsLaunchTests.swift */; };
+		769E303327983E85006677E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 769E303227983E85006677E3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		769E301F27983C91006677E3 /* SwuiftUINewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwuiftUINewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		769E302327983C91006677E3 /* SwuiftUINewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwuiftUINewsAppUITests.swift; sourceTree = "<group>"; };
 		769E302527983C91006677E3 /* SwuiftUINewsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwuiftUINewsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		769E303227983E85006677E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				769E300727983C8C006677E3 /* SwuiftUINewsApp */,
 				769E301827983C91006677E3 /* SwuiftUINewsAppTests */,
 				769E302227983C91006677E3 /* SwuiftUINewsAppUITests */,
+				769E303227983E85006677E3 /* README.md */,
 				769E300627983C8C006677E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				769E303327983E85006677E3 /* README.md in Resources */,
 				769E301027983C91006677E3 /* Preview Assets.xcassets in Resources */,
 				769E300D27983C91006677E3 /* Assets.xcassets in Resources */,
 			);
