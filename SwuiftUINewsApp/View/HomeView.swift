@@ -10,11 +10,6 @@ import UIKit
 
 struct HomeView: View {
     
-    init() {
-        UITabBar.appearance().unselectedItemTintColor = .gray
-        UITabBar.appearance().barTintColor = .lightGray
-    }
-    
     var body: some View {
         TabView {
             FeedView()
