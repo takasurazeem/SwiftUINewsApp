@@ -10,6 +10,7 @@ import URLImage
 
 struct ArticleView: View {
     
+    @State var isLoading: Bool
     let article: Article
     
     var body: some View {
@@ -51,6 +52,8 @@ struct ArticleView: View {
                 }
             }
         }
+        .redacted(reason: isLoading ? .placeholder : [])
+        .allowsHitTesting(!isLoading)
     }
 }
 
@@ -65,7 +68,7 @@ struct PlaceHolderImageView: View {
 
 struct ArticleView_Previews: PreviewProvider {
     static var previews: some View {
-        ArticleView(article: Article.dummyArticle)
+        ArticleView(isLoading: false, article: Article.dummyArticles.first!)
             .previewLayout(.sizeThatFits)
     }
 }
