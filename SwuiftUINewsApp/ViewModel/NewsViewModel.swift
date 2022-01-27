@@ -41,7 +41,6 @@ class NewsViewModelImpl: NewsViewModel, ObservableObject {
                 }
             } receiveValue: { response in
                 self.articles = response.articles!
-                self.articles.forEach { print($0.id.uuidString) }
             }
         cancellables.insert(cancellable)
     }
