@@ -35,7 +35,7 @@ struct ArticleView: View {
             }
             VStack(alignment: .leading, spacing: 4) {
                 Text(article.title ?? "")
-                    .foregroundColor(.black)
+                    .foregroundColor(Theme.textColour)
                     .font(.system(size: 18, weight: .semibold))
                 Text(article.source ?? "N/A")
                     .foregroundColor(.gray)
